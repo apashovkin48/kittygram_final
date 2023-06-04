@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'qwe123')
 
-DEBUG = bool(os.getenv('DEBUG'), 'True')
+DEBUG = bool(os.getenv('DEBUG', 'True'))
 
 ALLOWED_HOSTS = [
     os.getenv('DNS_NAME', 'kittykitty.hopto.org'),
