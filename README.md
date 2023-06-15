@@ -18,6 +18,6 @@ DNS_NAME=<Your_dns_name>
 POSTGRES_DB=postgres
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=<Your_password>
-DB_HOST=foodgram-db
+DB_HOST=kittygram-db
 DB_PORT=5432
 ```
