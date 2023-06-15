@@ -13,14 +13,14 @@ Kittygram - проект в котором пользователи могут �
 # Подготовка .env файла
 Для запуска проекта необходимо создать .env файл который имеет вид:
 ```
-DEBUG=False
-SECRET_KEY=<Your_some_long_string>
-DNS_NAME=<Your_dns_name>
-POSTGRES_DB=postgres
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=<Your_password>
-DB_HOST=kittygram-db
-DB_PORT=5432
+DEBUG = False
+SECRET_KEY = <Your_some_long_string>
+DNS_NAME = <Your_dns_name>
+POSTGRES_DB = postgres
+POSTGRES_USER = postgres
+POSTGRES_PASSWORD = <Your_password>
+DB_HOST = kittygram-db
+DB_PORT = 5432
 ```
 
 # Секреты GitHub
