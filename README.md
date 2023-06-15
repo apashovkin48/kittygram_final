@@ -33,3 +33,6 @@ DB_PORT = 5432
 - SSH_PASSPHRASE - Если для ssh используется фраза-пароль
 - TELEGRAM_TO - ID пользователя в Telegram
 - TELEGRAM_TOKEN - ID бота в Telegram
+
+# Автодеплой
+Для автоматической сборки проекта необходимо скопировать файл docker-compose.production.yml в папку с проектом kittygram
